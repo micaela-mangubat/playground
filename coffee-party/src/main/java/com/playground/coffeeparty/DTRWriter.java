@@ -49,7 +49,7 @@ public class DTRWriter {
 
 		// Update the cell's value
 		cell.setCellType(CellType.STRING);
-		cell.setCellValue("Updated Value");
+		cell.setCellFormula("8+8");
 
 		// Write the output to the file
 		FileOutputStream fileOut = new FileOutputStream(dtrFilename);

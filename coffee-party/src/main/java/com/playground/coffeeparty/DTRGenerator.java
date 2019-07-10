@@ -10,7 +10,7 @@ public class DTRGenerator {
 	public static void main(String... args) {
 		String odtrFilename = args[0];
 		String dtrFilename = args[1];
-		String yrMonth = args[3];
+		String yrMonth = args[2];
 		generate(odtrFilename, dtrFilename, yrMonth);
 	}
 	
